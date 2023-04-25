@@ -1,5 +1,26 @@
-book_filename: "AnalisisSeriesTiempo"
-language:
-  ui:
-    chapter_name: "Chapter "
-delete_merged_file: true
+bookdown::gitbook:
+  # Título del libro
+  title: "Análisis de Series de Tiempo - Vehículos"
+
+  # Nombre del archivo de salida (sin la extensión)
+  output_dir: "docs"
+
+  # Nombre del archivo principal (sin la extensión)
+  book_filename: "index"
+
+  # Archivos R Markdown a incluir en el libro (en orden)
+  rmd_files: ["index.Rmd", "01-intro.Rmd", "02-literature.Rmd","03-method.Rmd", "04-application.Rmd","05-summary.Rmd", "06-references.Rmd"]
+
+  # Opciones adicionales de salida de GitBook
+  config:
+    toc:
+      collapse: subsections
+      scrollspy: true
+
+    # Personalización de GitBook
+    styles:
+      website:
+        "body":
+          "font-family": "Arial, sans-serif"
+        "h1,h2,h3,h4,h5,h6":
+          "font-weight": "bold"
