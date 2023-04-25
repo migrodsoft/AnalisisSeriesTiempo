@@ -3,7 +3,7 @@ bookdown::gitbook:
   title: "Análisis de Series de Tiempo - Vehículos"
 
   # Nombre del archivo de salida (sin la extensión)
-  output_dir: "_book"
+  output_dir: "docs"
 
   # Nombre del archivo principal (sin la extensión)
   book_filename: "index"
